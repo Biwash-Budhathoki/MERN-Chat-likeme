@@ -1,7 +1,7 @@
 const express = require("express");  //importing express
 const { chats } = require("./data/data.js" ); //importing chats
 const dotenv = require("dotenv");
-const connectDB = require("./config/db.js");
+const connectDB = require("./config/db");
 
 const app = express();                      //instance of an express variable
 dotenv.config();
